@@ -1,0 +1,106 @@
+body {
+  color: rgb(70, 114, 105);
+  font-family: 'Open Sans', sans-serif;
+  background-color:whitesmoke;
+  font-size: 15px;
+  line-height: normal;
+
+ }
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color : #3a925c;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+h2 {
+  color :#3a925c;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+p {
+  color: rgb(50, 78, 73);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #D83A56;
+}
+
+a {
+  text-decoration: underline;
+  color: #FF616D;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  border: 1px solid lightgrey;
+}
+
+.card {
+  background-color: whites;
+  padding: 30px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+}
+
+.container {
+  width : 700px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+}
+.fab {
+  color :white;
+}
+
+li {
+  width: 40px;
+  padding: 5px;
+  background-color: #fc7782;
+  font-size: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+li:hover {
+    background-color: #f5a1a8;
+  }
+
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
